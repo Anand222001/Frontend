@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <table align="center" >
+        <form action="mailto:anandsomasundaram22@gmail.com" method="post">
+            <tr>
+                <td><label for="fname"><b>FirstName:</b></label></td>
+                <td><input type="text" name="firstname" placeholder="Enter firstname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lname"><b>LastName:</b></label></td>
+                <td><input type="text" name="lastname" placeholder="Enter lastname" required></td>
+            </tr>
+            <tr>
+                <td><label for="mail"><b>Email:</b></label></td>
+                <td><input type="email" name="mail"placeholder="Enter the mailid"required></td>
+            </tr>
+            <tr>
+                <td><label for="phone"><b>Phone:</b></label></td>
+                <td><input type="tel" name="phone" minlength="10" maxlength="10" placeholder="Enter the phone number" required></td>
+            </tr>
+            <tr>
+                <td><label for="loc"><b>Location:</b></label></td>
+                <td><input type="text" name="location" placeholder="Enter the location"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" ></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
