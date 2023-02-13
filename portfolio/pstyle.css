@@ -1,0 +1,84 @@
+body
+{
+    background-color: beige;
+    /* background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1603550190027390978/pu/img/ztcpIdHx8zaagnXJ.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover; */
+}
+.main
+{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: burlywood;
+    align-items: center;
+    top: 0px;
+}
+.imgstyle
+{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: burlywood;
+    padding: 5px;
+    align-items: center;
+}
+.main1
+{
+    display: flex;
+    width:60%;
+    justify-content: space-around;
+}
+.main2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.home
+{
+    margin-left:150px;
+}
+.child1
+{
+    grid-row: span 2;
+}
+.main21
+{
+    margin-top: 70px;
+    margin-left:20px;
+}
+@media (any-hover:hover)
+{
+    a:hover
+    {
+        background-color: aqua;
+        
+    }
+}
+.header
+{
+    margin-bottom: 30px;
+}
+.skill
+{
+    display: flex;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.skill1_p
+{
+    margin-left: 65px;
+}
+li
+{
+    padding: 5px;
+}
+.footer
+{
+    display: flex;
+    background-color: burlywood;
+    width: 100%;
+}
